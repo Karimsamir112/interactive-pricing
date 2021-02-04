@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>interactive pricing</title>
+	
+	
+	
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	
+	
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+	
+	<!-- for fonts -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+	  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+	
+	
+	
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script type="text/javascript" src="Script/myscript.js"></script>
+	
+	
+
+	</head>
+
+<body onload="check();" ng-app="">
+<header> 
+	<div> 
+	<h1>Simple, traffic-based pricing</h1>
+	<br>
+	<h4>Sign-up for our 30-day trial. No credit card requiered</h4>
+	<!--  <img src="./images/pattern-circles.svg" alt="circles"/> -->
+	</div>
+	</header>
+
+<div  class="card">
+	
+	<h4 id="views">10K Pageviews</h4>  <h1 class="price"> </h1>  <span class="month">/month</span>
+	<div class="container"> 
+		
+	<input  onclick="check();"  id="inp" type="range" min="0" max="100" step="25" value="50" ng-model="size"    >
+		
+		</div>
+	
+	<!-- <input style="display: none;"  id="inp2" type="range" value="{{price}}" max="27" min="6" step="4" ng-model="price2" > -->
+	
+	  <div class="selector">
+      <h4 class="gray">Monthly  Billing</h4>
+      <div class="btn-bg grey-bg">
+        <div onclick="transition();" class="btn-radio"></div>
+      </div>
+      <h4 class="gray">Yearly  Billing</h4>
+		  
+		  <span class="discount">25% discount</span>
+		  <span  class="discount2">-25%</span>
+    </div>
+	
+	<hr>
+	
+	<footer>
+	
+	
+	<div>
+	<div>	<img src="./images/icon-check.svg" alt="juste"/> <span>Unlimited websites</span>  </div>
+	<div>	<img src="./images/icon-check.svg" alt="juste2"/> <span>100% data owwnership</span>  </div>
+	<div>	<img src="./images/icon-check.svg" alt="juste3"/> <span>Email reports</span>  </div>
+		
+		</div>
+	
+	
+	<button>Start my trial</button>
+	
+	
+	
+	
+	</footer>
+	
+	
+	
+
+	</div>
+
+
+
+
+
+
+
+
+
+ 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="https://kit.fontawesome.com/682febeeb9.js" crossorigin="anonymous"></script> 
+    
+	</body>
+</html>
