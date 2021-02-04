@@ -292,7 +292,7 @@ background: linear-gradient(to bottom right, hsl(223, 50%, 87%) 0%, hsl(223, 50%
 	margin-left: 95%;*/
 	margin-left: -30px;
 	position: relative;
-	left:33px;
+	left:32px;
 	
 	color:hsl(15, 100%, 70%);
 	background-color: hsl(14, 92%, 95%);
@@ -357,7 +357,7 @@ footer button:hover{
 		margin-top: -160px;
 		background-color: hsl(0, 0%, 100%);
 		height: 600px;
-		width: 450px;
+		width: 440px;
 		padding: 20px
 		
 	}
